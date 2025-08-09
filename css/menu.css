@@ -49,6 +49,10 @@
     }
 }
 
+.efeito, .efeito-title2, .efeito1, .efeito2, .efeito3, .efeito4 {
+    visibility: hidden;
+}
+
 .dish-heart {
     width: 70px;
     height: 70px;

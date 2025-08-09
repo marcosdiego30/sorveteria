@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" />  
     <link rel="stylesheet" href="./css/style.css">
-    <title>Cardapio</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <title>Sorvete</title>
 </head>
 
 <body>
@@ -37,10 +39,10 @@
 
     <main id="content">
         <section id="home">
-            <div class="shape"></div>
+            <div class="shape efeito-shape"></div>
 
 
-            <div id="cta">
+            <div id="cta" class="efeito-cta">
                 <h1 class="title">O Sabor que vai até <span>Você !</span></h1>
                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vitae
                     excepturi, ipsam ducimus inventore libero voluptatum ullam nemo voluptatem animi pariatur quidem
@@ -63,16 +65,16 @@
             </div>
 
             <div id="banner">
-                <img src="./assets/sorvetemain.png" alt="sorvete">
+                <img class="efeito-banner" src="./assets/sorvetemain.png" alt="sorvete">
             </div>
         </section>
 
         <section id="menu">
-            <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nossos Sorvetes</h3>
+            <h2 class="section-title efeito">Cardápio</h2>
+            <h3 class="section-subtitle efeito-title2">Nossos Sorvetes</h3>
 
             <div id="dishes">
-                <div class="dish">
+                <div class="dish efeito1">
 
 
 
@@ -102,7 +104,7 @@
 
                 </div>
 
-                <div class="dish">
+                <div class="dish efeito2">
 
 
 
@@ -132,7 +134,7 @@
 
                 </div>
 
-                <div class="dish">
+                <div class="dish efeito3">
 
 
 
@@ -162,7 +164,7 @@
 
                 </div>
 
-                <div class="dish">
+                <div class="dish efeito4">
 
 
 
@@ -195,9 +197,9 @@
         </section>
 
         <section id="testimunho">
-            <img src="./assets/sorvetelogo.png" id="testimunho-chef" alt="foto de um chef">
+            <img class="efeito-img" src="./assets/sorvetelogo.png" id="testimunho-chef" alt="foto de um chef">
 
-            <div id="testimunhos-container">
+            <div id="testimunhos-container" class="efeito-testimunhos">
                 <h2 class="section-title">Depoimentos</h2>
                 <h3 class="section-subtitle">O que nossos clientes dizem</h3>
 
@@ -264,6 +266,7 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/reveal.js"></script>
 </body>
 
 </html>

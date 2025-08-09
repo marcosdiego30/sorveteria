@@ -11,6 +11,10 @@
     }
 }
 
+.efeito-img, .efeito-testimunhos {
+    visibility: hidden;
+}
+
 #testimunhos-container {
    width: 50%;
 

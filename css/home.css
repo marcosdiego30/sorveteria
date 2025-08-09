@@ -38,6 +38,11 @@
     }
 }
 
+.efeito-cta, .efeito-shape,
+.efeito-banner {
+    visibility: hidden;
+}
+
 #cta-buttons {
     display: flex;
     gap: 24px;
